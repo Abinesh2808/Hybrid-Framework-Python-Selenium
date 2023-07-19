@@ -1,0 +1,453 @@
+2023-07-16 21:07:39,662 [INFO]: 
+2023-07-16 21:07:39,662 [ERROR]: 
+2023-07-16 21:07:39,817 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,828 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,836 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,841 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,846 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,850 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,868 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,878 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,890 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,900 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,905 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,909 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,920 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,933 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,937 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,942 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,945 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,961 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,965 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,971 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,978 [INFO]: Reading Data From Excel
+2023-07-16 21:07:39,998 [INFO]: Reading Data From Excel
+2023-07-16 21:07:40,002 [INFO]: Reading Data From Excel
+2023-07-16 21:07:40,008 [INFO]: Reading Data From Excel
+2023-07-16 21:07:40,012 [INFO]: Reading Data From Excel
+2023-07-16 21:07:40,017 [INFO]: Launching Browser
+2023-07-16 21:07:41,560 [INFO]: Browser Launched
+2023-07-16 21:07:41,561 [INFO]: Maximizing Browser
+2023-07-16 21:07:41,700 [INFO]: Browser Maximized
+2023-07-16 21:07:41,703 [INFO]: Entering URL
+2023-07-16 21:07:44,717 [INFO]: URL Entered
+2023-07-16 21:07:44,719 [INFO]: Verifying Title
+2023-07-16 21:07:44,735 [INFO]: Title Verified
+2023-07-16 21:07:44,735 [INFO]: Clicking Register Link
+2023-07-16 21:07:44,735 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:45,364 [INFO]: Element Verified
+2023-07-16 21:07:45,364 [INFO]: Register Link Clicked
+2023-07-16 21:07:45,365 [INFO]: Verifying Title
+2023-07-16 21:07:45,378 [INFO]: Title Verified
+2023-07-16 21:07:45,378 [INFO]: Clicking Specified Gender
+2023-07-16 21:07:45,479 [INFO]: Specified Gender Clicked
+2023-07-16 21:07:45,479 [INFO]: Entering First Name
+2023-07-16 21:07:45,480 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:45,623 [INFO]: Element Verified
+2023-07-16 21:07:45,623 [INFO]: First Name Entered
+2023-07-16 21:07:45,623 [INFO]: Entering Last Name
+2023-07-16 21:07:45,623 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:45,747 [INFO]: Element Verified
+2023-07-16 21:07:45,747 [INFO]: Last Name Entered
+2023-07-16 21:07:45,748 [INFO]: Entering Email
+2023-07-16 21:07:45,748 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:45,916 [INFO]: Element Verified
+2023-07-16 21:07:45,916 [INFO]: Email Entered
+2023-07-16 21:07:45,916 [INFO]: Entering Password
+2023-07-16 21:07:45,916 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:46,060 [INFO]: Element Verified
+2023-07-16 21:07:46,060 [INFO]: Password Entered
+2023-07-16 21:07:46,061 [INFO]: Entering Confirm Password
+2023-07-16 21:07:46,061 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:46,201 [INFO]: Element Verified
+2023-07-16 21:07:46,202 [INFO]: Confirm Password Entered
+2023-07-16 21:07:46,202 [INFO]: Clicking Register Button
+2023-07-16 21:07:46,202 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:47,476 [INFO]: Element Verified
+2023-07-16 21:07:47,477 [INFO]: Register Button Clicked
+2023-07-16 21:07:47,477 [INFO]: Verifying Message
+2023-07-16 21:07:47,526 [INFO]: Message Verified
+2023-07-16 21:07:47,526 [INFO]: Clicking Continue Button
+2023-07-16 21:07:47,527 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:48,133 [INFO]: Element Verified
+2023-07-16 21:07:48,133 [INFO]: Continue Button Clicked
+2023-07-16 21:07:48,133 [INFO]: Verifying Title
+2023-07-16 21:07:48,150 [INFO]: Title Verified
+2023-07-16 21:07:48,151 [INFO]: Clicking Logout Link
+2023-07-16 21:07:48,152 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:49,266 [INFO]: Element Verified
+2023-07-16 21:07:49,267 [INFO]: Logout Link Clicked
+2023-07-16 21:07:49,267 [INFO]: Verifying Title
+2023-07-16 21:07:49,291 [INFO]: Title Verified
+2023-07-16 21:07:49,291 [INFO]: Clicking Login Link
+2023-07-16 21:07:49,292 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:49,877 [INFO]: Element Verified
+2023-07-16 21:07:49,878 [INFO]: Login Link Clicked
+2023-07-16 21:07:49,878 [INFO]: Verifying Title
+2023-07-16 21:07:49,893 [INFO]: Title Verified
+2023-07-16 21:07:49,893 [INFO]: Entering Email
+2023-07-16 21:07:49,894 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:50,022 [INFO]: Element Verified
+2023-07-16 21:07:50,022 [INFO]: Email Entered
+2023-07-16 21:07:50,023 [INFO]: Entering Password
+2023-07-16 21:07:50,023 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:50,165 [INFO]: Element Verified
+2023-07-16 21:07:50,165 [INFO]: Password Entered
+2023-07-16 21:07:50,165 [INFO]: Clicking Login Button
+2023-07-16 21:07:50,166 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:51,051 [INFO]: Element Verified
+2023-07-16 21:07:51,053 [INFO]: Login Button Clicked
+2023-07-16 21:07:51,055 [INFO]: Verifying Title
+2023-07-16 21:07:51,067 [INFO]: Title Verified
+2023-07-16 21:07:51,070 [INFO]: Clicking Logout Link
+2023-07-16 21:07:51,072 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:52,011 [INFO]: Element Verified
+2023-07-16 21:07:52,012 [INFO]: Logout Link Clicked
+2023-07-16 21:07:52,012 [INFO]: Verifying Title
+2023-07-16 21:07:52,033 [INFO]: Title Verified
+2023-07-16 21:07:52,040 [INFO]: Closing Browser
+2023-07-16 21:07:54,356 [INFO]: Browser Closed
+2023-07-16 21:07:54,362 [INFO]: Launching Browser
+2023-07-16 21:07:55,871 [INFO]: Browser Launched
+2023-07-16 21:07:55,872 [INFO]: Maximizing Browser
+2023-07-16 21:07:56,011 [INFO]: Browser Maximized
+2023-07-16 21:07:56,013 [INFO]: Entering URL
+2023-07-16 21:07:58,744 [INFO]: URL Entered
+2023-07-16 21:07:58,747 [INFO]: Verifying Title
+2023-07-16 21:07:58,761 [INFO]: Title Verified
+2023-07-16 21:07:58,761 [INFO]: Clicking Login Link
+2023-07-16 21:07:58,761 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:59,446 [INFO]: Element Verified
+2023-07-16 21:07:59,446 [INFO]: Login Link Clicked
+2023-07-16 21:07:59,447 [INFO]: Verifying Title
+2023-07-16 21:07:59,459 [INFO]: Title Verified
+2023-07-16 21:07:59,459 [INFO]: Entering Email
+2023-07-16 21:07:59,459 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:59,607 [INFO]: Element Verified
+2023-07-16 21:07:59,608 [INFO]: Email Entered
+2023-07-16 21:07:59,608 [INFO]: Entering Password
+2023-07-16 21:07:59,608 [INFO]: Verifying Element in DOM
+2023-07-16 21:07:59,746 [INFO]: Element Verified
+2023-07-16 21:07:59,746 [INFO]: Password Entered
+2023-07-16 21:07:59,746 [INFO]: Clicking Login Button
+2023-07-16 21:07:59,747 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:00,604 [INFO]: Element Verified
+2023-07-16 21:08:00,604 [INFO]: Login Button Clicked
+2023-07-16 21:08:00,605 [INFO]: Verifying Title
+2023-07-16 21:08:00,629 [INFO]: Title Verified
+2023-07-16 21:08:00,662 [INFO]: Mouse Horeing to the Specified Element
+2023-07-16 21:08:00,959 [INFO]: Clicking Cell Phones
+2023-07-16 21:08:00,959 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:01,957 [INFO]: Element Verified
+2023-07-16 21:08:01,957 [INFO]: Cell Phones Clicked
+2023-07-16 21:08:01,958 [INFO]: Verifying Title
+2023-07-16 21:08:01,965 [INFO]: Title Verified
+2023-07-16 21:08:01,965 [INFO]: Clicking Smartphones
+2023-07-16 21:08:01,966 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:03,837 [INFO]: Element Verified
+2023-07-16 21:08:03,838 [INFO]: Smartphones Clicked
+2023-07-16 21:08:03,838 [INFO]: Verifying Title
+2023-07-16 21:08:03,844 [INFO]: Title Verified
+2023-07-16 21:08:03,844 [INFO]: Clearing Default Quantity
+2023-07-16 21:08:03,844 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:03,953 [INFO]: Element Verified
+2023-07-16 21:08:03,954 [INFO]: Entering Specified Quantity
+2023-07-16 21:08:03,954 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:04,064 [INFO]: Element Verified
+2023-07-16 21:08:04,065 [INFO]: Specified Quantity Entered
+2023-07-16 21:08:04,065 [INFO]: Clicking Add to Cart Button
+2023-07-16 21:08:04,066 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:04,173 [INFO]: Element Verified
+2023-07-16 21:08:04,173 [INFO]: Add to Cart Button Clicked
+2023-07-16 21:08:04,174 [INFO]: Verifying Message
+2023-07-16 21:08:04,460 [INFO]: Message Verified
+2023-07-16 21:08:04,460 [INFO]: Verifying Message
+2023-07-16 21:08:04,496 [INFO]: Message Verified
+2023-07-16 21:08:04,496 [INFO]: Clicking Shopping Cart Link
+2023-07-16 21:08:04,497 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:05,274 [INFO]: Element Verified
+2023-07-16 21:08:05,274 [INFO]: Shopping Cart Link Clicked
+2023-07-16 21:08:05,274 [INFO]: Verifying Title
+2023-07-16 21:08:05,285 [INFO]: Title Verified
+2023-07-16 21:08:05,286 [INFO]: Clicking Terms and Conditions
+2023-07-16 21:08:05,286 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:05,403 [INFO]: Element Verified
+2023-07-16 21:08:05,403 [INFO]: Terms and Conditions Clicked
+2023-07-16 21:08:05,403 [INFO]: Clicking Checkout Button
+2023-07-16 21:08:05,403 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:06,797 [INFO]: Element Verified
+2023-07-16 21:08:06,798 [INFO]: Checkout Button Clicked
+2023-07-16 21:08:06,799 [INFO]: Verifying Title
+2023-07-16 21:08:06,809 [INFO]: Title Verified
+2023-07-16 21:08:06,809 [INFO]: Selecting Country from Drop-Down using Visible text
+2023-07-16 21:08:06,940 [INFO]: Country Name Selected from Drop-Down
+2023-07-16 21:08:06,940 [INFO]: Entering City Name
+2023-07-16 21:08:06,940 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:07,108 [INFO]: Element Verified
+2023-07-16 21:08:07,108 [INFO]: City Name Entered
+2023-07-16 21:08:07,108 [INFO]: Entering Address1
+2023-07-16 21:08:07,108 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:07,282 [INFO]: Element Verified
+2023-07-16 21:08:07,282 [INFO]: Address1 Entered
+2023-07-16 21:08:07,282 [INFO]: Entering Zip Code
+2023-07-16 21:08:07,282 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:07,429 [INFO]: Element Verified
+2023-07-16 21:08:07,429 [INFO]: Zip Code Entered
+2023-07-16 21:08:07,429 [INFO]: Entering Phone Number
+2023-07-16 21:08:07,430 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:07,578 [INFO]: Element Verified
+2023-07-16 21:08:07,578 [INFO]: Phone Number Entered
+2023-07-16 21:08:07,578 [INFO]: Clicking Continue Button
+2023-07-16 21:08:07,578 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:07,694 [INFO]: Element Verified
+2023-07-16 21:08:07,694 [INFO]: Continue Button Clicked
+2023-07-16 21:08:07,695 [INFO]: Clicking Continue Button
+2023-07-16 21:08:07,695 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:08,395 [INFO]: Element Verified
+2023-07-16 21:08:08,396 [INFO]: Continue Button Clicked
+2023-07-16 21:08:08,396 [INFO]: Clicking Nexy Day Air (0.00) Shipping Method
+2023-07-16 21:08:08,396 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:08,771 [INFO]: Element Verified
+2023-07-16 21:08:08,771 [INFO]: Nexy Day Air (0.00) Shipping Method Clicked
+2023-07-16 21:08:08,771 [INFO]: Clicking Continue Button
+2023-07-16 21:08:08,771 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:08,871 [INFO]: Element Verified
+2023-07-16 21:08:08,871 [INFO]: Continue Button Clicked
+2023-07-16 21:08:08,871 [INFO]: Clicking Credit Card
+2023-07-16 21:08:08,871 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:09,228 [INFO]: Element Verified
+2023-07-16 21:08:09,228 [INFO]: Credit Card Clicked
+2023-07-16 21:08:09,228 [INFO]: Clicking Continue Button
+2023-07-16 21:08:09,229 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:09,369 [INFO]: Element Verified
+2023-07-16 21:08:09,369 [INFO]: Continue Button Clicked
+2023-07-16 21:08:09,370 [INFO]: Selecting Mastercard from Drop-Down using Visible text
+2023-07-16 21:08:09,732 [INFO]: Mastercard Selected from Drop-Down
+2023-07-16 21:08:09,733 [INFO]: Entering Card Holder Name
+2023-07-16 21:08:09,733 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:09,862 [INFO]: Element Verified
+2023-07-16 21:08:09,862 [INFO]: Card Holder Name Entered
+2023-07-16 21:08:09,862 [INFO]: Entering Card Number
+2023-07-16 21:08:09,862 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:10,019 [INFO]: Element Verified
+2023-07-16 21:08:10,019 [INFO]: Card Number Entered
+2023-07-16 21:08:10,019 [INFO]: Selecting Expiry Month from Drop-Down using Visible text
+2023-07-16 21:08:10,119 [INFO]: Expiry Month Selected from Drop-Down
+2023-07-16 21:08:10,119 [INFO]: Selecting Expiry Year from Drop-Down using Visible text
+2023-07-16 21:08:10,207 [INFO]: Expiry Year Selected from Drop-Down
+2023-07-16 21:08:10,208 [INFO]: Entering Card Code
+2023-07-16 21:08:10,208 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:10,318 [INFO]: Element Verified
+2023-07-16 21:08:10,318 [INFO]: Card Code Entered
+2023-07-16 21:08:10,318 [INFO]: Clicking Continue Button
+2023-07-16 21:08:10,318 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:10,426 [INFO]: Element Verified
+2023-07-16 21:08:10,426 [INFO]: Continue Button Clicked
+2023-07-16 21:08:10,426 [INFO]: Clicking Confirm Button
+2023-07-16 21:08:10,426 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:11,068 [INFO]: Element Verified
+2023-07-16 21:08:11,068 [INFO]: Confirm Button Clicked
+2023-07-16 21:08:11,068 [INFO]: Verifying Title
+2023-07-16 21:08:11,077 [INFO]: Title Verified
+2023-07-16 21:08:11,077 [INFO]: Verifying Message
+2023-07-16 21:08:12,156 [INFO]: Message Verified
+2023-07-16 21:08:12,177 [INFO]: Verifying Order Number
+2023-07-16 21:08:12,194 [INFO]: Order Number Verified
+2023-07-16 21:08:12,227 [INFO]: Clicking Logout Link
+2023-07-16 21:08:12,228 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:13,322 [INFO]: Element Verified
+2023-07-16 21:08:13,323 [INFO]: Logout Link Clicked
+2023-07-16 21:08:13,323 [INFO]: Verifying Title
+2023-07-16 21:08:13,338 [INFO]: Title Verified
+2023-07-16 21:08:13,343 [INFO]: Closing Browser
+2023-07-16 21:08:15,763 [INFO]: Browser Closed
+2023-07-16 21:08:15,770 [INFO]: Launching Browser
+2023-07-16 21:08:17,391 [INFO]: Browser Launched
+2023-07-16 21:08:17,392 [INFO]: Maximizing Browser
+2023-07-16 21:08:17,510 [INFO]: Browser Maximized
+2023-07-16 21:08:17,512 [INFO]: Entering URL
+2023-07-16 21:08:20,170 [INFO]: URL Entered
+2023-07-16 21:08:20,175 [INFO]: Verifying Title
+2023-07-16 21:08:20,191 [INFO]: Title Verified
+2023-07-16 21:08:20,192 [INFO]: Clicking Login Link
+2023-07-16 21:08:20,192 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:20,921 [INFO]: Element Verified
+2023-07-16 21:08:20,924 [INFO]: Login Link Clicked
+2023-07-16 21:08:20,924 [INFO]: Verifying Title
+2023-07-16 21:08:20,936 [INFO]: Title Verified
+2023-07-16 21:08:20,936 [INFO]: Entering Email
+2023-07-16 21:08:20,937 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:21,110 [INFO]: Element Verified
+2023-07-16 21:08:21,110 [INFO]: Email Entered
+2023-07-16 21:08:21,110 [INFO]: Entering Password
+2023-07-16 21:08:21,111 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:21,282 [INFO]: Element Verified
+2023-07-16 21:08:21,282 [INFO]: Password Entered
+2023-07-16 21:08:21,282 [INFO]: Clicking Login Button
+2023-07-16 21:08:21,283 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:23,206 [INFO]: Element Verified
+2023-07-16 21:08:23,207 [INFO]: Login Button Clicked
+2023-07-16 21:08:23,207 [INFO]: Verifying Title
+2023-07-16 21:08:23,223 [INFO]: Title Verified
+2023-07-16 21:08:23,306 [INFO]: Scrolling Down to Specified Element
+2023-07-16 21:08:23,318 [INFO]: Clicking Orders Link
+2023-07-16 21:08:23,318 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:23,891 [INFO]: Element Verified
+2023-07-16 21:08:23,892 [INFO]: Orders Link Clicked
+2023-07-16 21:08:23,892 [INFO]: Verifying Title
+2023-07-16 21:08:23,903 [INFO]: Title Verified
+2023-07-16 21:08:23,911 [INFO]: Selecting Specified Order Details
+2023-07-16 21:08:24,538 [INFO]: Specified Order Selected
+2023-07-16 21:08:24,539 [INFO]: Verifying Title
+2023-07-16 21:08:24,557 [INFO]: Title Verified
+2023-07-16 21:08:24,558 [INFO]: Clicking Download Invoice Button
+2023-07-16 21:08:24,558 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:25,051 [INFO]: Element Verified
+2023-07-16 21:08:25,051 [INFO]: Download Invoice Button Clicked
+2023-07-16 21:08:26,065 [INFO]: Verifying Download
+2023-07-16 21:08:26,067 [INFO]: Download Verified
+2023-07-16 21:08:26,067 [INFO]: Clicking Logout Link
+2023-07-16 21:08:26,067 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:27,838 [INFO]: Element Verified
+2023-07-16 21:08:27,838 [INFO]: Logout Link Clicked
+2023-07-16 21:08:27,839 [INFO]: Verifying Title
+2023-07-16 21:08:27,870 [INFO]: Title Verified
+2023-07-16 21:08:27,881 [INFO]: Closing Browser
+2023-07-16 21:08:30,427 [INFO]: Browser Closed
+2023-07-16 21:08:30,432 [INFO]: Launching Browser
+2023-07-16 21:08:32,057 [INFO]: Browser Launched
+2023-07-16 21:08:32,058 [INFO]: Maximizing Browser
+2023-07-16 21:08:32,192 [INFO]: Browser Maximized
+2023-07-16 21:08:32,194 [INFO]: Entering URL
+2023-07-16 21:08:35,431 [INFO]: URL Entered
+2023-07-16 21:08:35,435 [INFO]: Verifying Title
+2023-07-16 21:08:35,457 [INFO]: Title Verified
+2023-07-16 21:08:35,458 [INFO]: Clicking Login Link
+2023-07-16 21:08:35,459 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:36,136 [INFO]: Element Verified
+2023-07-16 21:08:36,136 [INFO]: Login Link Clicked
+2023-07-16 21:08:36,136 [INFO]: Verifying Title
+2023-07-16 21:08:36,150 [INFO]: Title Verified
+2023-07-16 21:08:36,150 [INFO]: Entering Email
+2023-07-16 21:08:36,150 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:36,314 [INFO]: Element Verified
+2023-07-16 21:08:36,315 [INFO]: Email Entered
+2023-07-16 21:08:36,315 [INFO]: Entering Password
+2023-07-16 21:08:36,315 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:36,473 [INFO]: Element Verified
+2023-07-16 21:08:36,473 [INFO]: Password Entered
+2023-07-16 21:08:36,473 [INFO]: Clicking Login Button
+2023-07-16 21:08:36,474 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:37,423 [INFO]: Element Verified
+2023-07-16 21:08:37,423 [INFO]: Login Button Clicked
+2023-07-16 21:08:37,423 [INFO]: Verifying Title
+2023-07-16 21:08:37,457 [INFO]: Title Verified
+2023-07-16 21:08:37,516 [INFO]: Scrolling Down to Specified Element
+2023-07-16 21:08:37,526 [INFO]: Clicking Orders Link
+2023-07-16 21:08:37,528 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:38,112 [INFO]: Element Verified
+2023-07-16 21:08:38,112 [INFO]: Orders Link Clicked
+2023-07-16 21:08:38,112 [INFO]: Verifying Title
+2023-07-16 21:08:38,137 [INFO]: Title Verified
+2023-07-16 21:08:38,138 [INFO]: Selecting Specified Order Details
+2023-07-16 21:08:38,768 [INFO]: Specified Order Selected
+2023-07-16 21:08:38,768 [INFO]: Verifying Title
+2023-07-16 21:08:38,776 [INFO]: Title Verified
+2023-07-16 21:08:38,776 [INFO]: Clicking Smartphone
+2023-07-16 21:08:38,776 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:40,219 [INFO]: Element Verified
+2023-07-16 21:08:40,219 [INFO]: Smartphone Clicked
+2023-07-16 21:08:40,219 [INFO]: Verifying Title
+2023-07-16 21:08:40,236 [INFO]: Title Verified
+2023-07-16 21:08:40,236 [INFO]: Clicking Add Review Link
+2023-07-16 21:08:40,236 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:47,560 [INFO]: Element Verified
+2023-07-16 21:08:47,561 [INFO]: Add Review Link Clicked
+2023-07-16 21:08:47,561 [INFO]: Verifying Title
+2023-07-16 21:08:47,566 [INFO]: Title Verified
+2023-07-16 21:08:47,566 [INFO]: Entering Review Title
+2023-07-16 21:08:47,567 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:47,821 [INFO]: Element Verified
+2023-07-16 21:08:47,821 [INFO]: Review Title Entered
+2023-07-16 21:08:47,822 [INFO]: Entering Review Text
+2023-07-16 21:08:47,822 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:48,105 [INFO]: Element Verified
+2023-07-16 21:08:48,105 [INFO]: Review Text Entered
+2023-07-16 21:08:48,106 [INFO]: Clicking Specified Rating
+2023-07-16 21:08:48,226 [INFO]: Specified Rating Clicked
+2023-07-16 21:08:48,226 [INFO]: Clicking Submit Review Button
+2023-07-16 21:08:48,226 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:55,595 [INFO]: Element Verified
+2023-07-16 21:08:55,595 [INFO]: Submit Review Button Clicked
+2023-07-16 21:08:55,596 [INFO]: Verifying Title
+2023-07-16 21:08:55,602 [INFO]: Title Verified
+2023-07-16 21:08:55,786 [INFO]: Verifying Added Review
+2023-07-16 21:08:55,787 [INFO]: Verifying Message
+2023-07-16 21:08:55,887 [INFO]: Message Verified
+2023-07-16 21:08:55,887 [INFO]: Added Review Verified
+2023-07-16 21:08:55,888 [INFO]: Clicking Logout Link
+2023-07-16 21:08:55,888 [INFO]: Verifying Element in DOM
+2023-07-16 21:08:56,976 [INFO]: Element Verified
+2023-07-16 21:08:56,977 [INFO]: Logout Link Clicked
+2023-07-16 21:08:56,977 [INFO]: Verifying Title
+2023-07-16 21:08:56,995 [INFO]: Title Verified
+2023-07-16 21:08:57,000 [INFO]: Closing Browser
+2023-07-16 21:08:59,393 [INFO]: Browser Closed
+2023-07-16 21:08:59,401 [INFO]: Launching Browser
+2023-07-16 21:09:00,962 [INFO]: Browser Launched
+2023-07-16 21:09:00,962 [INFO]: Maximizing Browser
+2023-07-16 21:09:01,107 [INFO]: Browser Maximized
+2023-07-16 21:09:01,110 [INFO]: Entering URL
+2023-07-16 21:09:03,683 [INFO]: URL Entered
+2023-07-16 21:09:03,690 [INFO]: Verifying Title
+2023-07-16 21:09:03,702 [INFO]: Title Verified
+2023-07-16 21:09:03,703 [INFO]: Clicking Login Link
+2023-07-16 21:09:03,703 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:04,389 [INFO]: Element Verified
+2023-07-16 21:09:04,389 [INFO]: Login Link Clicked
+2023-07-16 21:09:04,390 [INFO]: Verifying Title
+2023-07-16 21:09:04,399 [INFO]: Title Verified
+2023-07-16 21:09:04,399 [INFO]: Entering Email
+2023-07-16 21:09:04,399 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:04,549 [INFO]: Element Verified
+2023-07-16 21:09:04,549 [INFO]: Email Entered
+2023-07-16 21:09:04,549 [INFO]: Entering Password
+2023-07-16 21:09:04,549 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:04,700 [INFO]: Element Verified
+2023-07-16 21:09:04,700 [INFO]: Password Entered
+2023-07-16 21:09:04,700 [INFO]: Clicking Login Button
+2023-07-16 21:09:04,700 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:05,681 [INFO]: Element Verified
+2023-07-16 21:09:05,681 [INFO]: Login Button Clicked
+2023-07-16 21:09:05,682 [INFO]: Verifying Title
+2023-07-16 21:09:05,700 [INFO]: Title Verified
+2023-07-16 21:09:05,767 [INFO]: Clicking Contact Us Link
+2023-07-16 21:09:05,767 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:06,324 [INFO]: Element Verified
+2023-07-16 21:09:06,324 [INFO]: Contact Us Link Clicked
+2023-07-16 21:09:06,325 [INFO]: Verifying Title
+2023-07-16 21:09:06,332 [INFO]: Title Verified
+2023-07-16 21:09:06,332 [INFO]: Verifying Name in the Name Textfield
+2023-07-16 21:09:06,365 [INFO]: Name Verified
+2023-07-16 21:09:06,365 [INFO]: Verifying Email in the Email Textfield
+2023-07-16 21:09:06,399 [INFO]: Email Verified
+2023-07-16 21:09:06,399 [INFO]: Entering Enquiry
+2023-07-16 21:09:06,399 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:06,645 [INFO]: Element Verified
+2023-07-16 21:09:06,645 [INFO]: Enquiry Entered
+2023-07-16 21:09:06,646 [INFO]: Clicking Submit Button
+2023-07-16 21:09:06,646 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:07,139 [INFO]: Element Verified
+2023-07-16 21:09:07,139 [INFO]: Submit Button Clicked
+2023-07-16 21:09:07,139 [INFO]: Verifying Title
+2023-07-16 21:09:07,216 [INFO]: Title Verified
+2023-07-16 21:09:07,217 [INFO]: Verifying Message
+2023-07-16 21:09:07,276 [INFO]: Message Verified
+2023-07-16 21:09:07,276 [INFO]: Clicking Logout Link
+2023-07-16 21:09:07,276 [INFO]: Verifying Element in DOM
+2023-07-16 21:09:08,131 [INFO]: Element Verified
+2023-07-16 21:09:08,131 [INFO]: Logout Link Clicked
+2023-07-16 21:09:08,132 [INFO]: Verifying Title
+2023-07-16 21:09:08,148 [INFO]: Title Verified
+2023-07-16 21:09:08,157 [INFO]: Closing Browser
+2023-07-16 21:09:10,541 [INFO]: Browser Closed

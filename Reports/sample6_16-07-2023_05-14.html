@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title"></title>
+    
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+    
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <p>Report generated on 16-Jul-2023 at 17:15:53 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        vunknown</p>
+    <h2>Environment</h2>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_a">
+      <a target="_blank"></a>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr>
+          <td class="col-result"></td>
+          <td class="col-name"></td>
+          <td class="col-duration"></td>
+          <td class="col-links"></td>
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="log"></div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <template id="template_results-table__head">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="outcome">Result</th>
+          <th class="sortable" data-column-type="nodeid">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </template>
+    <template id="template_results-table__head--empty">
+      <tr id="not-found-message">
+        <th colspan="4">No results found. Check the filters.</th>
+      </tr>
+    </template>
+    <template id="template_table-colgroup">
+      <colgroup>
+        <col span="1" style="width: 25%;">
+        <col span="1" style="width: 25%;">
+        <col span="1" style="width: 25%;">
+        <col span="1" style="width: 25%;">
+      </colgroup>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        
+        <p class="run-count"></p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to ge the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+          <div class="controls">
+            <div class="filters">
+              <input checked="true" class="filter" data-test-result="error" name="filter_checkbox" type="checkbox"/><span class="error"></span>
+              <input checked="true" class="filter" data-test-result="failed" name="filter_checkbox" type="checkbox"/><span class="failed"></span>
+              <input checked="true" class="filter" data-test-result="rerun" name="filter_checkbox" type="checkbox"/><span class="rerun"></span>
+              <input checked="true" class="filter" data-test-result="xfailed" name="filter_checkbox" type="checkbox"/><span class="xfailed"></span>
+              <input checked="true" class="filter" data-test-result="xpassed" name="filter_checkbox" type="checkbox"/><span class="xpassed"></span>
+              <input checked="true" class="filter" data-test-result="passed" name="filter_checkbox" type="checkbox"/><span class="passed"></span>
+              <input checked="true" class="filter" data-test-result="skipped" name="filter_checkbox" type="checkbox"/><span class="skipped"></span>
+            </div>
+            <div class="collapse">
+              <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+            <div>
+          </div>
+        </div>
+      </div>
+    
+    
+
+    <table id="results-table"></table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;title&#34;: &#34;sample6_16-07-2023_05-14.html&#34;, &#34;collectedItems&#34;: 5, &#34;runningState&#34;: &#34;Finished&#34;, &#34;durationFormat&#34;: &#34;&#34;, &#34;environment&#34;: {&#34;Python&#34;: &#34;3.10.6&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.19045-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;7.4.0&#34;, &#34;pluggy&#34;: &#34;1.2.0&#34;}, &#34;Plugins&#34;: {&#34;dependency&#34;: &#34;0.5.1&#34;, &#34;html&#34;: &#34;4.0.0rc0&#34;, &#34;metadata&#34;: &#34;2.0.4&#34;}, &#34;JAVA_HOME&#34;: &#34;C:\\Program Files\\Java\\jdk1.8.0_291&#34;}, &#34;tests&#34;: [{&#34;nodeid&#34;: &#34;test_DemoWebShop_1234.py::test_wemowebshop_1234::setup&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1234.py&#34;, 5, &#34;test_wemowebshop_1234&#34;], &#34;keywords&#34;: {&#34;test_wemowebshop_1234&#34;: 1, &#34;test_DemoWebShop_1234.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;setup&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 5.697058900012053, &#34;start&#34;: 1689507898.4248168, &#34;stop&#34;: 1689507904.1212127, &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;No log output captured.&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: [], &#34;extras&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1234.py::test_wemowebshop_1234&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1234.py&#34;, 5, &#34;test_wemowebshop_1234&#34;], &#34;keywords&#34;: {&#34;test_wemowebshop_1234&#34;: 1, &#34;test_DemoWebShop_1234.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;call&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 10.656712299998617, &#34;start&#34;: 1689507904.127983, &#34;stop&#34;: 1689507914.7848086, &#34;extras&#34;: [], &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;No log output captured.&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1234.py::test_wemowebshop_1234::teardown&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1234.py&#34;, 5, &#34;test_wemowebshop_1234&#34;], &#34;keywords&#34;: {&#34;test_wemowebshop_1234&#34;: 1, &#34;test_DemoWebShop_1234.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;teardown&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 2.204820099999779, &#34;start&#34;: 1689507914.7869816, &#34;stop&#34;: 1689507916.99088, &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;No log output captured.&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: [], &#34;extras&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1235.py::test_demowebshop_1235::setup&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1235.py&#34;, 8, &#34;test_demowebshop_1235&#34;], &#34;keywords&#34;: {&#34;test_demowebshop_1235&#34;: 1, &#34;test_DemoWebShop_1235.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;setup&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 7.225143999996362, &#34;start&#34;: 1689507916.9973938, &#34;stop&#34;: 1689507924.2292037, &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;No log output captured.&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: [], &#34;extras&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1235.py::test_demowebshop_1235&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1235.py&#34;, 8, &#34;test_demowebshop_1235&#34;], &#34;keywords&#34;: {&#34;test_demowebshop_1235&#34;: 1, &#34;test_DemoWebShop_1235.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Failed&#34;, &#34;longrepr&#34;: {&#34;reprcrash&#34;: {&#34;path&#34;: &#34;D:\\Users\\Abinesh\\PycharmProjects\\SeleniumFrameworks\\DemoWebShop\\Generic\\Verify_Message.py&#34;, &#34;lineno&#34;: 10, &#34;message&#34;: &#34;TypeError: exceptions must derive from BaseException&#34;}, &#34;reprtraceback&#34;: {&#34;reprentries&#34;: [{&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    def test_demowebshop_1235(config):&#34;, &#34;        driver = config&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop\&#34;)&#34;, &#34;        home = HomePage(driver)&#34;, &#34;        home.login_link()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop. Login\&#34;)&#34;, &#34;        login = Loginpage(driver)&#34;, &#34;        login.email(\&#34;iambatmand@gmail.com\&#34;)&#34;, &#34;        login.password(123456)&#34;, &#34;        login.login_button()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop\&#34;)&#34;, &#34;        home.mouse_hover_electronics()&#34;, &#34;        home.cell_phones()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop. Cell phones\&#34;)&#34;, &#34;        cell_phone = CellPhonesPage(driver)&#34;, &#34;        cell_phone.smartphones()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop. Smartphone\&#34;)&#34;, &#34;        smartphone = SmartPhonePage(driver)&#34;, &#34;        smartphone.quantity(3)&#34;, &#34;        smartphone.add_to_cart()&#34;, &#34;        smartphone.verify_product_added_to_cart_message(\&#34;The product has been added to your shopping cart\&#34;)&#34;, &#34;&gt;       smartphone.verify_cart_count(3)&#34;], &#34;reprfuncargs&#34;: {&#34;args&#34;: [[&#34;config&#34;, &#34;&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;&#34;]]}, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;test_DemoWebShop_1235.py&#34;, &#34;lineno&#34;: 30, &#34;message&#34;: &#34;&#34;}, &#34;style&#34;: &#34;long&#34;}}, {&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    verify_message(self.driver,loc[\&#34;Cart Count\&#34;],f\&#34;({qty})\&#34;)&#34;], &#34;reprfuncargs&#34;: null, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;..\\POM\\SmartPhonePage.py&#34;, &#34;lineno&#34;: 23, &#34;message&#34;: &#34;in verify_cart_count&#34;}, &#34;style&#34;: &#34;short&#34;}}, {&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    def verify_message(driver,loc,message):&#34;, &#34;        try:&#34;, &#34;            wait = WebDriverWait(driver,5)&#34;, &#34;            wait.until(ec.text_to_be_present_in_element(loc,message))&#34;, &#34;        except:&#34;, &#34;            take_screenshot(driver)&#34;, &#34;&gt;           raise \&#34;Message not Displayed\&#34;&#34;, &#34;E           TypeError: exceptions must derive from BaseException&#34;], &#34;reprfuncargs&#34;: {&#34;args&#34;: [[&#34;driver&#34;, &#34;&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;&#34;], [&#34;loc&#34;, &#34;(&#39;xpath&#39;, \&#34;//a[@class=&#39;ico-cart&#39;]//span[@class=&#39;cart-qty&#39;]\&#34;)&#34;], [&#34;message&#34;, &#34;&#39;(3)&#39;&#34;]]}, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;..\\Generic\\Verify_Message.py&#34;, &#34;lineno&#34;: 10, &#34;message&#34;: &#34;TypeError&#34;}, &#34;style&#34;: &#34;long&#34;}}], &#34;extraline&#34;: null, &#34;style&#34;: &#34;long&#34;}, &#34;sections&#34;: [], &#34;chain&#34;: [[{&#34;reprentries&#34;: [{&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    def verify_message(driver,loc,message):&#34;, &#34;        try:&#34;, &#34;            wait = WebDriverWait(driver,5)&#34;, &#34;&gt;           wait.until(ec.text_to_be_present_in_element(loc,message))&#34;], &#34;reprfuncargs&#34;: {&#34;args&#34;: [[&#34;driver&#34;, &#34;&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;&#34;], [&#34;loc&#34;, &#34;(&#39;xpath&#39;, \&#34;//a[@class=&#39;ico-cart&#39;]//span[@class=&#39;cart-qty&#39;]\&#34;)&#34;], [&#34;message&#34;, &#34;&#39;(3)&#39;&#34;]]}, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;..\\Generic\\Verify_Message.py&#34;, &#34;lineno&#34;: 7, &#34;message&#34;: &#34;&#34;}, &#34;style&#34;: &#34;long&#34;}}, {&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    def until(self, method, message=&#39;&#39;):&#34;, &#34;        \&#34;\&#34;\&#34;Calls the method provided with the driver as an argument until the \\&#34;, &#34;        return value is not False.\&#34;\&#34;\&#34;&#34;, &#34;        screen = None&#34;, &#34;        stacktrace = None&#34;, &#34;    &#34;, &#34;        end_time = time.time() + self._timeout&#34;, &#34;        while True:&#34;, &#34;            try:&#34;, &#34;                value = method(self._driver)&#34;, &#34;                if value:&#34;, &#34;                    return value&#34;, &#34;            except self._ignored_exceptions as exc:&#34;, &#34;                screen = getattr(exc, &#39;screen&#39;, None)&#34;, &#34;                stacktrace = getattr(exc, &#39;stacktrace&#39;, None)&#34;, &#34;            time.sleep(self._poll)&#34;, &#34;            if time.time() &gt; end_time:&#34;, &#34;                break&#34;, &#34;&gt;       raise TimeoutException(message, screen, stacktrace)&#34;, &#34;E       selenium.common.exceptions.TimeoutException: Message:&#34;], &#34;reprfuncargs&#34;: {&#34;args&#34;: [[&#34;self&#34;, &#34;&lt;selenium.webdriver.support.wait.WebDriverWait (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;&#34;], [&#34;method&#34;, &#34;&lt;selenium.webdriver.support.expected_conditions.text_to_be_present_in_element object at 0x00000254652897B0&gt;&#34;], [&#34;message&#34;, &#34;&#39;&#39;&#34;]]}, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;C:\\Users\\Abinesh\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py&#34;, &#34;lineno&#34;: 80, &#34;message&#34;: &#34;TimeoutException&#34;}, &#34;style&#34;: &#34;long&#34;}}], &#34;extraline&#34;: null, &#34;style&#34;: &#34;long&#34;}, {&#34;path&#34;: &#34;C:\\Users\\Abinesh\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py&#34;, &#34;lineno&#34;: 80, &#34;message&#34;: &#34;selenium.common.exceptions.TimeoutException: Message:&#34;}, &#34;During handling of the above exception, another exception occurred:&#34;], [{&#34;reprentries&#34;: [{&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    def test_demowebshop_1235(config):&#34;, &#34;        driver = config&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop\&#34;)&#34;, &#34;        home = HomePage(driver)&#34;, &#34;        home.login_link()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop. Login\&#34;)&#34;, &#34;        login = Loginpage(driver)&#34;, &#34;        login.email(\&#34;iambatmand@gmail.com\&#34;)&#34;, &#34;        login.password(123456)&#34;, &#34;        login.login_button()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop\&#34;)&#34;, &#34;        home.mouse_hover_electronics()&#34;, &#34;        home.cell_phones()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop. Cell phones\&#34;)&#34;, &#34;        cell_phone = CellPhonesPage(driver)&#34;, &#34;        cell_phone.smartphones()&#34;, &#34;        verify_title(driver, \&#34;Demo Web Shop. Smartphone\&#34;)&#34;, &#34;        smartphone = SmartPhonePage(driver)&#34;, &#34;        smartphone.quantity(3)&#34;, &#34;        smartphone.add_to_cart()&#34;, &#34;        smartphone.verify_product_added_to_cart_message(\&#34;The product has been added to your shopping cart\&#34;)&#34;, &#34;&gt;       smartphone.verify_cart_count(3)&#34;], &#34;reprfuncargs&#34;: {&#34;args&#34;: [[&#34;config&#34;, &#34;&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;&#34;]]}, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;test_DemoWebShop_1235.py&#34;, &#34;lineno&#34;: 30, &#34;message&#34;: &#34;&#34;}, &#34;style&#34;: &#34;long&#34;}}, {&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    verify_message(self.driver,loc[\&#34;Cart Count\&#34;],f\&#34;({qty})\&#34;)&#34;], &#34;reprfuncargs&#34;: null, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;..\\POM\\SmartPhonePage.py&#34;, &#34;lineno&#34;: 23, &#34;message&#34;: &#34;in verify_cart_count&#34;}, &#34;style&#34;: &#34;short&#34;}}, {&#34;type&#34;: &#34;ReprEntry&#34;, &#34;data&#34;: {&#34;lines&#34;: [&#34;    def verify_message(driver,loc,message):&#34;, &#34;        try:&#34;, &#34;            wait = WebDriverWait(driver,5)&#34;, &#34;            wait.until(ec.text_to_be_present_in_element(loc,message))&#34;, &#34;        except:&#34;, &#34;            take_screenshot(driver)&#34;, &#34;&gt;           raise \&#34;Message not Displayed\&#34;&#34;, &#34;E           TypeError: exceptions must derive from BaseException&#34;], &#34;reprfuncargs&#34;: {&#34;args&#34;: [[&#34;driver&#34;, &#34;&lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;&#34;], [&#34;loc&#34;, &#34;(&#39;xpath&#39;, \&#34;//a[@class=&#39;ico-cart&#39;]//span[@class=&#39;cart-qty&#39;]\&#34;)&#34;], [&#34;message&#34;, &#34;&#39;(3)&#39;&#34;]]}, &#34;reprlocals&#34;: null, &#34;reprfileloc&#34;: {&#34;path&#34;: &#34;..\\Generic\\Verify_Message.py&#34;, &#34;lineno&#34;: 10, &#34;message&#34;: &#34;TypeError&#34;}, &#34;style&#34;: &#34;long&#34;}}], &#34;extraline&#34;: null, &#34;style&#34;: &#34;long&#34;}, {&#34;path&#34;: &#34;D:\\Users\\Abinesh\\PycharmProjects\\SeleniumFrameworks\\DemoWebShop\\Generic\\Verify_Message.py&#34;, &#34;lineno&#34;: 10, &#34;message&#34;: &#34;TypeError: exceptions must derive from BaseException&#34;}, null]]}, &#34;when&#34;: &#34;call&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 11.76452729999437, &#34;start&#34;: 1689507924.2344873, &#34;stop&#34;: 1689507936.0006359, &#34;extras&#34;: [], &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;\nloc = (&#39;xpath&#39;, \&#34;//a[@class=&#39;ico-cart&#39;]//span[@class=&#39;cart-qty&#39;]\&#34;), message = &#39;(3)&#39;\n\n    def verify_message(driver,loc,message):\n        try:\n            wait = WebDriverWait(driver,5)\n&gt;           wait.until(ec.text_to_be_present_in_element(loc,message))\n\n..\\Generic\\Verify_Message.py:7: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = &lt;selenium.webdriver.support.wait.WebDriverWait (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;\nmethod = &lt;selenium.webdriver.support.expected_conditions.text_to_be_present_in_element object at 0x00000254652897B0&gt;\nmessage = &#39;&#39;\n\n    def until(self, method, message=&#39;&#39;):\n        \&#34;\&#34;\&#34;Calls the method provided with the driver as an argument until the \\\n        return value is not False.\&#34;\&#34;\&#34;\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, &#39;screen&#39;, None)\n                stacktrace = getattr(exc, &#39;stacktrace&#39;, None)\n            time.sleep(self._poll)\n            if time.time() &gt; end_time:\n                break\n&gt;       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nC:\\Users\\Abinesh\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nconfig = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;\n\n    def test_demowebshop_1235(config):\n        driver = config\n        verify_title(driver, \&#34;Demo Web Shop\&#34;)\n        home = HomePage(driver)\n        home.login_link()\n        verify_title(driver, \&#34;Demo Web Shop. Login\&#34;)\n        login = Loginpage(driver)\n        login.email(\&#34;iambatmand@gmail.com\&#34;)\n        login.password(123456)\n        login.login_button()\n        verify_title(driver, \&#34;Demo Web Shop\&#34;)\n        home.mouse_hover_electronics()\n        home.cell_phones()\n        verify_title(driver, \&#34;Demo Web Shop. Cell phones\&#34;)\n        cell_phone = CellPhonesPage(driver)\n        cell_phone.smartphones()\n        verify_title(driver, \&#34;Demo Web Shop. Smartphone\&#34;)\n        smartphone = SmartPhonePage(driver)\n        smartphone.quantity(3)\n        smartphone.add_to_cart()\n        smartphone.verify_product_added_to_cart_message(\&#34;The product has been added to your shopping cart\&#34;)\n&gt;       smartphone.verify_cart_count(3)\n\ntest_DemoWebShop_1235.py:30: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n..\\POM\\SmartPhonePage.py:23: in verify_cart_count\n    verify_message(self.driver,loc[\&#34;Cart Count\&#34;],f\&#34;({qty})\&#34;)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ndriver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session=\&#34;9d08b44676bf493ea75db4bbae8a7ef0\&#34;)&gt;\nloc = (&#39;xpath&#39;, \&#34;//a[@class=&#39;ico-cart&#39;]//span[@class=&#39;cart-qty&#39;]\&#34;), message = &#39;(3)&#39;\n\n    def verify_message(driver,loc,message):\n        try:\n            wait = WebDriverWait(driver,5)\n            wait.until(ec.text_to_be_present_in_element(loc,message))\n        except:\n            take_screenshot(driver)\n&gt;           raise \&#34;Message not Displayed\&#34;\nE           TypeError: exceptions must derive from BaseException\n\n..\\Generic\\Verify_Message.py:10: TypeError&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1235.py::test_demowebshop_1235::teardown&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1235.py&#34;, 8, &#34;test_demowebshop_1235&#34;], &#34;keywords&#34;: {&#34;test_demowebshop_1235&#34;: 1, &#34;test_DemoWebShop_1235.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;teardown&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 3.209186200008844, &#34;start&#34;: 1689507936.1750944, &#34;stop&#34;: 1689507939.3844767, &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;No log output captured.&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: [], &#34;extras&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1236.py::test_demowebshop_1236::setup&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1236.py&#34;, 6, &#34;test_demowebshop_1236&#34;], &#34;keywords&#34;: {&#34;test_demowebshop_1236&#34;: 1, &#34;test_DemoWebShop_1236.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;setup&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [], &#34;duration&#34;: 4.834452199997031, &#34;start&#34;: 1689507939.3844767, &#34;stop&#34;: 1689507944.2272305, &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;No log output captured.&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: [], &#34;extras&#34;: []}, {&#34;nodeid&#34;: &#34;test_DemoWebShop_1236.py::test_demowebshop_1236&#34;, &#34;location&#34;: [&#34;test_DemoWebShop_1236.py&#34;, 6, &#34;test_demowebshop_1236&#34;], &#34;keywords&#34;: {&#34;test_demowebshop_1236&#34;: 1, &#34;test_DemoWebShop_1236.py&#34;: 1, &#34;regression&#34;: 1, &#34;__init__.py&#34;: 1, &#34;Test_Scripts&#34;: 1}, &#34;outcome&#34;: &#34;Passed&#34;, &#34;longrepr&#34;: null, &#34;when&#34;: &#34;call&#34;, &#34;user_properties&#34;: [], &#34;sections&#34;: [[&#34;Captured stdout call&#34;, &#34;[&#39;1688637567019.pdf&#39;, &#39;850754.jpg&#39;, &#39;9041323965_SDCTN0071500094.pdf&#39;, &#39;Bnsl paid receipt.pdf&#39;, &#39;cv.pdf&#39;, &#39;desktop.ini&#39;, &#39;DP Croped.jpeg&#39;, &#39;dp croped.jpg&#39;, &#39;DP.jpeg&#39;, &#39;Dpp.jpeg&#39;, &#39;drive_result.xlsx&#39;, &#39;Eliya_tamizhil_git_a4.pdf&#39;, &#39;ExecutionReport_EXEC1002 failed.pdf&#39;, &#39;ExecutionReport_EXEC1007 passed.pdf&#39;, &#39;ExecutionReport_EXEC1008 warning.pdf&#39;, &#39;ExecutionReport_EXEC1009 skipped.pdf&#39;, &#39;HMSCI.zip&#39;, &#39;ISRO Application Fee Payment.pdf&#39;, &#39;linuxmint-21.1-cinnamon-64bit.iso&#39;, &#39;order_1476875 (1).pdf&#39;, &#39;order_1476875 (10).pdf&#39;, &#39;order_1476875 (11).pdf&#39;, &#39;order_1476875 (12).pdf&#39;, &#39;order_1476875 (13).pdf&#39;, &#39;order_1476875 (14).pdf&#39;, &#39;order_1476875 (15).pdf&#39;, &#39;order_1476875 (16).pdf&#39;, &#39;order_1476875 (2).pdf&#39;, &#39;order_1476875 (3).pdf&#39;, &#39;order_1476875 (4).pdf&#39;, &#39;order_1476875 (5).pdf&#39;, &#39;order_1476875 (6).pdf&#39;, &#39;order_1476875 (7).pdf&#39;, &#39;order_1476875 (8).pdf&#39;, &#39;order_1476875 (9).pdf&#39;, &#39;order_1476875.pdf&#39;, &#39;Profile.pdf&#39;, &#39;Telegram Desktop&#39;, &#39;Unconfirmed 513492.crdownload&#39;, &#39;Unconfirmed 663377.crdownload&#39;, &#39;Unconfirmed 71825.crdownload&#39;, &#39;__MACOSX&#39;, &#39;\u0bb5\u0b9f\u0bcd\u0b9f\u0bbe\u0b9f\u0bcd\u0b9a\u0bbf\u0baf\u0bb0\u0bcd \u0b85\u0bb2\u0bc1\u0bb5\u0bb2\u0b95 \u0b87\u0ba3\u0bc8\u0baf \u0b9a\u0bc7\u0bb5\u0bc8 - \u0ba8\u0bbf\u0bb2 \u0b89\u0bb0\u0bbf\u0bae\u0bc8 \u0bb5\u0bbf\u0baa\u0bb0\u0b99\u0bcd\u0b95\u0bb3\u0bcd.pdf&#39;]\n&#34;]], &#34;duration&#34;: 6.5355677000043215, &#34;start&#34;: 1689507944.2362185, &#34;stop&#34;: 1689507950.7715502, &#34;extras&#34;: [], &#34;$report_type&#34;: &#34;TestReport&#34;, &#34;longreprtext&#34;: &#34;[&#39;1688637567019.pdf&#39;, &#39;850754.jpg&#39;, &#39;9041323965_SDCTN0071500094.pdf&#39;, &#39;Bnsl paid receipt.pdf&#39;, &#39;cv.pdf&#39;, &#39;desktop.ini&#39;, &#39;DP Croped.jpeg&#39;, &#39;dp croped.jpg&#39;, &#39;DP.jpeg&#39;, &#39;Dpp.jpeg&#39;, &#39;drive_result.xlsx&#39;, &#39;Eliya_tamizhil_git_a4.pdf&#39;, &#39;ExecutionReport_EXEC1002 failed.pdf&#39;, &#39;ExecutionReport_EXEC1007 passed.pdf&#39;, &#39;ExecutionReport_EXEC1008 warning.pdf&#39;, &#39;ExecutionReport_EXEC1009 skipped.pdf&#39;, &#39;HMSCI.zip&#39;, &#39;ISRO Application Fee Payment.pdf&#39;, &#39;linuxmint-21.1-cinnamon-64bit.iso&#39;, &#39;order_1476875 (1).pdf&#39;, &#39;order_1476875 (10).pdf&#39;, &#39;order_1476875 (11).pdf&#39;, &#39;order_1476875 (12).pdf&#39;, &#39;order_1476875 (13).pdf&#39;, &#39;order_1476875 (14).pdf&#39;, &#39;order_1476875 (15).pdf&#39;, &#39;order_1476875 (16).pdf&#39;, &#39;order_1476875 (2).pdf&#39;, &#39;order_1476875 (3).pdf&#39;, &#39;order_1476875 (4).pdf&#39;, &#39;order_1476875 (5).pdf&#39;, &#39;order_1476875 (6).pdf&#39;, &#39;order_1476875 (7).pdf&#39;, &#39;order_1476875 (8).pdf&#39;, &#39;order_1476875 (9).pdf&#39;, &#39;order_1476875.pdf&#39;, &#39;Profile.pdf&#39;, &#39;Telegram Desktop&#39;, &#39;Unconfirmed 513492.crdownload&#39;, &#39;Unconfirmed 663377.crdownload&#39;, &#39;Unconfirmed 71825.crdownload&#39;, &#39;__MACOSX&#39;, &#39;\u0bb5\u0b9f\u0bcd\u0b9f\u0bbe\u0b9f\u0bcd\u0b9a\u0bbf\u0baf\u0bb0\u0bcd \u0b85\u0bb2\u0bc1\u0bb5\u0bb2\u0b95 \u0b87\u0ba3\u0bc8\u0baf \u0b9a\u0bc7\u0bb5\u0bc8 - \u0ba8\u0bbf\u0bb2 \u0b89\u0bb0\u0bbf\u0bae\u0bc8 \u0bb5\u0bbf\u0baa\u0bb0\u0b99\u0bcd\u0b95\u0bb3\u0bcd.pdf&#39;]\n&#34;, &#34;resultsTableRow&#34;: {}, &#34;tableHtml&#34;: []}], &#34;resultsTableHeader&#34;: {}, &#34;additionalSummary&#34;: {&#34;prefix&#34;: [], &#34;summary&#34;: [], &#34;postfix&#34;: []}}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(), 'passed']
+        const dataBlob = { ...data, tests: data.tests.map((test, index) => ({
+            ...test,
+            id: `test_${index}`,
+            collapsed: collapsedCategories.includes(test.outcome.toLowerCase()),
+        })) }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+    get allTests() {
+        return [...this.data.tests]
+    }
+    get title() {
+        return this.renderData.title
+    }
+    get environment() {
+        return this.renderData.environment
+    }
+    get collectedItems() {
+        return this.renderData.collectedItems
+    }
+    get isFinished() {
+        return this.data.runningState === 'Finished'
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const storageModule = require('./storage.js')
+const { formatDuration } = require('./utils.js')
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.querySelector('#template_environment_row')
+const templateCollGroup = document.querySelector('#template_table-colgroup')
+const templateResult = document.querySelector('#template_results-table__tbody')
+const aTag = document.querySelector('#template_a')
+const listHeader = document.querySelector('#template_results-table__head')
+const listHeaderEmpty = document.querySelector('#template_results-table__head--empty')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const insertAdditionalHTML = (html, element, selector) => {
+    Object.keys(html).map((key) => {
+        element.querySelectorAll(selector).item(key).insertAdjacentHTML('beforebegin', html[key])
+    })
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getListHeader: ({ resultsTableHeader }) => {
+        const header = listHeader.content.cloneNode(true)
+        const sortAttr = storageModule.getSort()
+        const sortAsc = JSON.parse(storageModule.getSortDirection())
+        const sortables = ['outcome', 'nodeid', 'duration']
+
+        sortables.forEach((sortCol) => {
+            if (sortCol === sortAttr) {
+                header.querySelector(`[data-column-type="${sortCol}"]`).classList.add(sortAsc ? 'desc' : 'asc')
+            }
+        })
+
+        // Add custom html from the pytest_html_results_table_header hook
+        insertAdditionalHTML(resultsTableHeader, header, 'th')
+
+        return header
+    },
+    getListHeaderEmpty: () => listHeaderEmpty.content.cloneNode(true),
+    getColGroup: () => templateCollGroup.content.cloneNode(true),
+    getResultTBody: ({ nodeid, id, longreprtext, duration, extras, resultsTableRow, tableHtml, outcome, collapsed }) => {
+        const outcomeLower = outcome.toLowerCase()
+        let formattedDuration = formatDuration(duration)
+        formattedDuration = formatDuration < 1 ? formattedDuration.ms : formattedDuration.formatted
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(outcomeLower)
+        resultBody.querySelector('.col-result').innerText = outcome
+        resultBody.querySelector('.col-result').classList.add(`${collapsed ? 'expander' : 'collapser'}`)
+        resultBody.querySelector('.col-result').dataset.id = id
+        resultBody.querySelector('.col-name').innerText = nodeid
+
+        resultBody.querySelector('.col-duration').innerText = duration < 1 ? formatDuration(duration).ms : formatDuration(duration).formatted
+
+
+        if (longreprtext) {
+            // resultBody.querySelector('.log').innerText = longreprtext
+            resultBody.querySelector('.log').innerHTML = longreprtext
+        }
+        // if (collapsed || !longreprtext) {
+        if (collapsed) {
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['json', 'text', 'url'].includes(format_type)) {
+                const extraLink = aTag.content.cloneNode(true)
+                const extraLinkItem = extraLink.querySelector('a')
+
+                extraLinkItem.href = content
+                extraLinkItem.className = `col-links__extra ${format_type}`
+                extraLinkItem.innerText = name
+                resultBody.querySelector('.col-links').appendChild(extraLinkItem)
+            }
+
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setUp(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_row hook
+        resultsTableRow && insertAdditionalHTML(resultsTableRow, resultBody, 'td')
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+exports.dom = dom
+exports.htmlToElements = htmlToElements
+exports.find = find
+exports.findAll = findAll
+
+},{"./mediaviewer.js":6,"./storage.js":8,"./utils.js":9}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ outcome }) => filter.includes(outcome.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+
+    if (currentFilter.length) {
+        const filteredSubset = getFilteredSubSet(currentFilter)
+        manager.setRender(filteredSubset)
+    } else {
+        manager.resetRender()
+    }
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.querySelector('#data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { formatDuration } = require('./utils.js')
+const { dom, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const { getVisible } = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderTitle = () => {
+        const title = manager.title
+        document.querySelector('#title').innerText = title
+        document.querySelector('#head-title').innerText = title
+    }
+    const renderTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.querySelector('#environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderTitle()
+    renderTable()
+}
+
+const renderContent = (tests) => {
+    const renderSet = tests.filter(({ when, outcome }) => when === 'call' || outcome === 'Error' )
+    const rows = renderSet.map(dom.getResultTBody)
+    const table = document.querySelector('#results-table')
+    removeChildren(table)
+    const tableHeader = dom.getListHeader(manager.renderData)
+    if (!rows.length) {
+        tableHeader.appendChild(dom.getListHeaderEmpty())
+    }
+    table.appendChild(dom.getColGroup())
+    table.appendChild(tableHeader)
+
+    rows.forEach((row) => !!row && table.appendChild(row))
+
+    table.querySelectorAll('.extra').forEach((item) => {
+        item.colSpan = document.querySelectorAll('th').length
+    })
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+    findAll('.col-result').forEach((elem) => {
+        elem.addEventListener('click', ({ target }) => {
+            manager.toggleCollapsedItem(target.dataset.id)
+            redraw()
+        })
+    })
+}
+
+const renderDerived = (tests, collectedItems, isFinished) => {
+    const renderSet = tests.filter(({ when, outcome }) => when === 'call' || outcome === 'Error')
+
+    const possibleOutcomes = [
+        { outcome: 'passed', label: 'Passed' },
+        { outcome: 'skipped', label: 'Skipped' },
+        { outcome: 'failed', label: 'Failed' },
+        { outcome: 'error', label: 'Errors' },
+        { outcome: 'xfailed', label: 'Unexpected failures' },
+        { outcome: 'xpassed', label: 'Unexpected passes' },
+        { outcome: 'rerun', label: 'Reruns' },
+    ]
+
+    const currentFilter = getVisible()
+    possibleOutcomes.forEach(({ outcome, label }) => {
+        const count = renderSet.filter((test) => test.outcome.toLowerCase() === outcome).length
+        const input = document.querySelector(`input[data-test-result="${outcome}"]`)
+        document.querySelector(`.${outcome}`).innerText = `${count} ${label}`
+
+        input.disabled = !count
+        input.checked = currentFilter.includes(outcome)
+    })
+
+    const numberOfTests = renderSet.filter(({ outcome }) =>
+        ['Passed', 'Failed', 'XPassed', 'XFailed'].includes(outcome)).length
+
+    if (isFinished) {
+        const accTime = tests.reduce((prev, { duration }) => prev + duration, 0)
+        const formattedAccTime = formatDuration(accTime)
+        const testWord = numberOfTests > 1 ? 'tests' : 'test'
+
+//        let durationText
+//        if (formattedAccTime.hasOwnProperty('ms')) {
+//          durationText = formattedAccTime.ms
+//        } else {
+//          durationText = formattedAccTime.seconds
+//        }
+        const durationText = formattedAccTime.hasOwnProperty('ms') ? formattedAccTime.ms : formattedAccTime.seconds
+
+        document.querySelector('.run-count').innerText = `${numberOfTests} ${testWord} ran in ${durationText}.`
+        document.querySelector('.summary__reload__button').classList.add('hidden')
+    } else {
+        document.querySelector('.run-count').innerText = `${numberOfTests} / ${collectedItems} tests done`
+    }
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        redraw()
+    }
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.removeEventListener('click', filterColumn)
+        elem.addEventListener('click', filterColumn)
+    })
+    document.querySelector('#show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        redraw()
+    })
+    document.querySelector('#hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset, allTests, collectedItems, isFinished } = manager
+
+    renderStatic()
+    renderContent(testSubset)
+    renderDerived(allTests, collectedItems, isFinished)
+}
+
+exports.redraw = redraw
+exports.bindEvents = bindEvents
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8,"./utils.js":9}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setUp = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+
+    leftArrow.addEventListener('click', moveLeft)
+    rightArrow.addEventListener('click', doRight)
+    imageEl.addEventListener('click', openImg)
+}
+
+exports.setUp = setUp
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending) => {
+    const sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort()
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const sortedList = genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+const doSort = (type) => {
+    const newSortType = storageModule.getSort() !== type
+    const currentAsc = storageModule.getSortDirection()
+    const ascending = newSortType ? true : !currentAsc
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+    const list = manager.testSubset
+
+    const sortedList = genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+exports.doSort = doSort
+exports.doInitSort = doInitSort
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFiltes = ['passed', 'skipped', 'failed', 'error', 'xfailed', 'xpassed', 'rerun']
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible') || ''
+    return settings ?
+        [...new Set(settings.split(',').filter((filter) => possibleFiltes.includes(filter)))] : possibleFiltes
+}
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFiltes]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',') || [...possibleFiltes]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFiltes.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    history.pushState({}, null, unescape(url.href))
+}
+const setFilter = (currentFilter) => {
+    if (!possibleFiltes.includes(currentFilter)) {
+        return
+    }
+    const url = new URL(window.location.href)
+    const settings = [currentFilter, ...new Set(new URLSearchParams(url.search).get('filter').split(','))]
+
+    url.searchParams.set('filter', settings)
+    history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = () => {
+    const url = new URL(window.location.href)
+    return new URLSearchParams(url.search).get('sort') || 'outcome'
+}
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = () => {
+    let categotries
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        categotries = collapsedItems?.split(',') || []
+    } else {
+        categotries = []
+    }
+    return categotries
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc'))
+
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+module.exports = {
+    getVisible,
+    setFilter,
+    hideCategory,
+    showCategory,
+    getSort,
+    getSortDirection,
+    setSort,
+    setSortDirection,
+    getCollapsedCategory,
+}
+
+},{}],9:[function(require,module,exports){
+const formatedNumber = (number) =>
+    number.toLocaleString('en-US', {
+        minimumIntegerDigits: 2,
+        useGrouping: false,
+    })
+
+const formatDuration = ( totalSeconds ) => {
+    if (totalSeconds < 1) {
+        return {ms: `${Math.round(totalSeconds * 1000)} ms`}
+    }
+
+    const hours = Math.floor(totalSeconds / 3600)
+    let remainingSeconds = totalSeconds % 3600
+    const minutes = Math.floor(remainingSeconds / 60)
+    remainingSeconds = remainingSeconds % 60
+    const seconds = Math.round(remainingSeconds)
+
+    return {
+      seconds: `${Math.round(totalSeconds)} seconds`,
+      formatted: `${formatedNumber(hours)}:${formatedNumber(minutes)}:${formatedNumber(seconds)}`,
+    }
+}
+
+module.exports = { formatDuration }
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
