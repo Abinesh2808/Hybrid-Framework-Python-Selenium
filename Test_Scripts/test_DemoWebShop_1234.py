@@ -3,10 +3,12 @@ from POM.RegisterPage import *
 from POM.LoginPage import *
 from Generic.Verify_Title import *
 from Generic.ReadingExcel import *
+import pytest
 
 test_data = read_testdata("Testdata")
 titles = read_testdata("Titles")
 messages = read_testdata("Messages")
+
 
 def test_wemowebshop_1234(config):
     driver = config

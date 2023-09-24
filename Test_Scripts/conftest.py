@@ -7,7 +7,7 @@ op = ChromeOptions()
 op.add_experimental_option("prefs",{"autofill.profile_enabled":False,"autofill.credit_card_enabled": False,
                                     "safebrowsing.enabled":True})
 """
-Chrome was shoowing popup to save address and card informations so i have used this
+Chrome was showing popup to save address and card informations so i have used this
 """
 
 @pytest.fixture

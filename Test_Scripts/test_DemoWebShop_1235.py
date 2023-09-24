@@ -6,6 +6,7 @@ from POM.ShoppingCartPage import *
 from POM.CheckoutPage import *
 from Generic.Verify_Title import *
 from Generic.ReadingExcel import *
+import pytest
 
 test_data = read_testdata("Testdata")
 titles = read_testdata("Titles")

@@ -1,3 +1,5 @@
+import pytest
+
 from POM.HomePage import *
 from POM.LoginPage import *
 from POM.OrderDetailsPage import *
@@ -11,6 +13,7 @@ test_data = read_testdata("Testdata")
 titles = read_testdata("Titles")
 messages = read_testdata("Messages")
 
+# @pytest.mark.skip
 def test_demowebshop_1237(config):
     driver = config
     verify_title(driver,titles["Homepage"])
