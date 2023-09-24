@@ -26,3 +26,4 @@ def config():
     log("info", "Closing Browser")
     driver.quit()
     log("info","Browser Closed")
+
