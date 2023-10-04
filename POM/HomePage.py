@@ -1,4 +1,4 @@
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 from Generic.Wrappers import *
 from selenium.webdriver.common.action_chains import ActionChains
 from Generic.Screenshot import *

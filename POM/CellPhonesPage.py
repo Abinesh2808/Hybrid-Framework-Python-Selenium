@@ -1,5 +1,5 @@
 from Generic.Wrappers import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 from Generic.Logs import *
 
 loc = read_locator("CellPhonesPage")

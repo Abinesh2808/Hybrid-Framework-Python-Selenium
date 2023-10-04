@@ -7,7 +7,10 @@ from POM.AccountPage import *
 from POM.SmartPhonePage import *
 from POM.ProductReviewsPage import *
 from Generic.Verify_Title import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
+import importlib, POM.CheckoutPage
+
+importlib.reload(POM.CheckoutPage)
 
 test_data = read_testdata("Testdata")
 titles = read_testdata("Titles")
@@ -28,7 +31,7 @@ def test_demowebshop_1237(config):
     home.orders_link()
     verify_title(driver,titles["Accountpage"])
     acnt = AccountPage(driver)
-    acnt.order_details(f"{acnt.get_onum()}")
+    acnt.order_details(POM.CheckoutPage.order_num)
     verify_title(driver,titles["Orderdetailspage"])
     order = OrderDetailsPage(driver)
     order.smartphone()

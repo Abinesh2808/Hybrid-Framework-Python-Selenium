@@ -5,7 +5,7 @@ from POM.SmartPhonePage import *
 from POM.ShoppingCartPage import *
 from POM.CheckoutPage import *
 from Generic.Verify_Title import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 import pytest
 
 test_data = read_testdata("Testdata")
@@ -61,7 +61,7 @@ def test_demowebshop_1235(config):
     checkout.payment_information_continue()
     checkout.confirm_button()
     verify_title(driver,titles["Checkoutpage"])
-    checkout.verify_order(messages["Oder Placed"])
+    checkout.verify_order(messages["Order Placed"])
     checkout.verify_order_number()
     home.logout_link()
     verify_title(driver, titles["Homepage"])

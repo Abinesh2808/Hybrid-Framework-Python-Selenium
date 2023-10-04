@@ -1,5 +1,5 @@
 from Generic.Wrappers import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 import os
 from Generic.Screenshot import *
 from Generic.Logs import *

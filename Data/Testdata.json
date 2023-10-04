@@ -1,0 +1,42 @@
+{
+   "Testdata": {
+      "Firstname": "Tony",
+      "Lastname": "Stark",
+      "Email": "ironman_testing123456@gmail.com",
+      "Password": "SavingWorld",
+      "Gender": "male",
+      "Quantity": "3",
+      "Country": "India",
+      "City": "Kanyakumari",
+      "Address1": "Nagercoil",
+      "Zipcode": "629501",
+      "Phonenumber": "9876543210",
+      "Cardtype": "Master card",
+      "Cardholdername": "Ironman",
+      "Cardnumber": "4539631760678890",
+      "Cardcode": "420",
+      "Reviewtitle": "Review About Smartphone",
+      "Reviewtext": "It is working well, Really Value for Money",
+      "Rating": 4,
+      "Enquiry": "When will be Apple iPhone Stock will come."
+   },
+   "Titles": {
+      "Homepage": "Demo Web Shop",
+      "Registerpage": "Demo Web Shop. Register",
+      "Loginpage": "Demo Web Shop. Login",
+      "Cellphonespage": "Demo Web Shop. Cell phones",
+      "Smartphonepage": "Demo Web Shop. Smartphone",
+      "Cartpage": "Demo Web Shop. Shopping Cart",
+      "Checkoutpage": "Demo Web Shop. Checkout",
+      "Accountpage": "Demo Web Shop. Account",
+      "Orderdetailspage": "Demo Web Shop. Order Details",
+      "Reviewpage": "Demo Web Shop. Product Reviews. Smartphone",
+      "Contactuspage": "Demo Web Shop. Contact Us"
+   },
+   "Messages": {
+      "Registration Complete": "Your registration completed",
+      "Product Added to Cart": "The product has been added to your shopping cart",
+      "Order Placed": "Your order has been successfully processed!",
+      "Enquiry Sent": "Your enquiry has been successfully sent to the store owner."
+   }
+}

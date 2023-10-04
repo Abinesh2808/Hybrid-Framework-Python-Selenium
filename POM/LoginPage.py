@@ -1,5 +1,5 @@
 from Generic.Wrappers import *
-from Generic.ReadingExcel import read_locator
+from Generic.ReadData import read_locator
 from Generic.Logs import *
 
 loc = read_locator("LoginPage")

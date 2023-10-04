@@ -3,7 +3,7 @@ from POM.HomePage import *
 from POM.LoginPage import *
 from POM.ContactUsPage import *
 from Generic.Verify_Title import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 
 test_data = read_testdata("Testdata")
 titles = read_testdata("Titles")

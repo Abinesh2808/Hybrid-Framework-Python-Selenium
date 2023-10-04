@@ -1,5 +1,5 @@
 from Generic.Wrappers import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 from selenium.webdriver.support.select import Select
 from Generic.Verify_Message import *
 from selenium.webdriver.support.wait import WebDriverWait
@@ -8,6 +8,7 @@ from Generic.Logs import *
 from Generic.Screenshot import *
 
 loc = read_locator("CheckOutPage")
+order_num = None
 
 class CheckOutPage:
     def __init__(self,driver):
@@ -59,7 +60,7 @@ class CheckOutPage:
 
     def next_day_shipping_method(self):
         log("info", "Clicking Nexy Day Air (0.00) Shipping Method")
-        click_element(loc["Nexy Day Air (0.00)"],self.driver)
+        click_element(loc["Next Day Air (0.00)"],self.driver)
         log("info", "Nexy Day Air (0.00) Shipping Method Clicked")
 
     def shipping_method_continue(self):
@@ -149,6 +150,7 @@ class CheckOutPage:
         verify_message(self.driver,address,msg)
 
     def verify_order_number(self):
+        global order_num
         try:
             address = self.driver.find_element(*loc["Order Number"])
             wait = WebDriverWait(self.driver,5)
@@ -158,9 +160,6 @@ class CheckOutPage:
 
             ele = self.driver.find_element("xpath","(//ul[@class='details']/li)[1]")
             order_num = ele.text
-
-            with open(r"D:\ordernumber.txt","w") as obj:
-                obj.writelines(order_num)
 
         except:
             log("error", "Order Number Not Displayed")

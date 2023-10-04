@@ -1,4 +1,4 @@
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 from Generic.Wrappers import *
 from Generic.Logs import *
 

@@ -2,7 +2,7 @@ from POM.HomePage import *
 from POM.RegisterPage import *
 from POM.LoginPage import *
 from Generic.Verify_Title import *
-from Generic.ReadingExcel import *
+from Generic.ReadData import *
 import pytest
 
 test_data = read_testdata("Testdata")
