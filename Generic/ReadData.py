@@ -1,11 +1,11 @@
 from xlrd import *
 from Generic.Logs import *
-import json
+import yaml
 
 
 def read_locator(data):
-    with open(r"../Data/Locators.json") as file:
-        d = json.load(file)
+    with open(r"../Data/Locators.yml") as file:
+        d = yaml.safe_load(file)
 
     if data in d:
         return d[data]
@@ -15,8 +15,8 @@ def read_locator(data):
 
 
 def read_testdata(data):
-    with open(r"../Data/Testdata.json") as file:
-        d = json.load(file)
+    with open(r"../Data/Testdata.yml") as file:
+        d = yaml.safe_load(file)
 
     if data in d:
         return d[data]
